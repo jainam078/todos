@@ -1,0 +1,35 @@
+@import "../globals/color.scss";
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-top: 20px;
+  position: relative;
+
+  .inputContainerForm {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    padding: 10px;
+    right: 0;
+  }
+
+  .submitButton{
+    background-color: $primary-bg-color;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    color: $primary-bg-white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .taskContainer{
+    display: flex;
+    flex-direction: column;
+  }
+}
